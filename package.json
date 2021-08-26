@@ -1,0 +1,15 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.0",
+  "description": "A Twitch Chat Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Harrison",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "tmi.js": "^1.8.4"
+  }
+}
