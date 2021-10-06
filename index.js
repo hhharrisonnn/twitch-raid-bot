@@ -22,6 +22,9 @@ client.on('message', (channel, tags, message, self) => {
 			client.say(channel, '!raid');
 			setTimeout(() => { 
 				client.say(channel, '+join');
+				setTimeout(() => {
+					client.say(channel, '+ed');
+				}, 2000);
 			}, 2000);
 		}
   }
